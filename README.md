@@ -1,6 +1,6 @@
 # Machine Learning Analysis
 
-### Machine learning model created to analyze Kepler Exoplanet search results. 
+### Machine learning model to analyze Kepler Exoplanet search results
 
 The model uses pandas, matplotlib and sklearn libraries train_test_split, MinMaxScaler and KNeighborsClassifier. The model operates on the assumption that planets can be classified using measurements from the columns koi_fpflag_nt, koi_fpflag_ss, koi_fpflag_co and koi_fpflag_ec. Koi_pdisposition was used as the actual values column. Values in this column were encoded from "Candidate" and "False Positive" to 1, 0 with 1 representing true and 0 representing false. For an exoplanet listed as "Candidate", the Candidate column would reflect 1 for true and the False Positive column would reflect 0. 
 
